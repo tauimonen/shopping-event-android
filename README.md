@@ -10,8 +10,6 @@ Welcome to the ShoppingEvent project! This project is designed to demonstrate th
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Contribution](#contribution)
-- [License](#license)
 
 ---
 
