@@ -51,6 +51,73 @@ ShoppingEvent is a sample Android application that leverages cutting-edge tools 
 - **Testing**: JUnit, Espresso
 
 ---
+## Dependencies and Plugins
+
+### Room Dependencies and Plugins
+Room is a persistence library that provides an abstraction layer over SQLite to allow for more robust database access while harnessing the full power of SQLite.
+
+**Dependencies:**
+```gradle
+implementation "androidx.room:room-runtime:2.6.1"
+kapt "androidx.room:room-compiler:2.6.1"
+implementation "androidx.room:room-ktx:2.6.1"
+```
+
+For more information, refer to the [official Room documentation](https://developer.android.com/training/data-storage/room).
+
+### Kotlin Symbol Processing (KSP) Plugin
+KSP is a Kotlin compiler plugin that provides a powerful, yet simple API to process Kotlin source files.
+
+**Plugin:**
+```gradle
+id 'com.google.devtools.ksp' version '<latest_version>'
+```
+
+For more details, check the [KSP Quickstart guide](https://kotlinlang.org/docs/ksp-quickstart.html).
+
+### Hilt Dependencies and Plugins
+Hilt is a dependency injection library for Android that reduces the boilerplate of doing manual dependency injection in your project.
+
+**Dependencies:**
+```gradle
+implementation "com.google.dagger:hilt-android:2.55"
+kapt "com.google.dagger:hilt-compiler:2.55"
+```
+
+**Plugin:**
+```gradle
+id 'com.google.dagger.hilt.android'
+```
+
+For additional information, visit the [Hilt documentation](https://developer.android.com/training/dependency-injection/hilt).
+
+### Navigation with Compose Dependencies
+Navigation with Compose simplifies the implementation of navigation within a Jetpack Compose application.
+
+**Dependencies:**
+```gradle
+implementation "androidx.navigation:navigation-compose:2.8.5"
+implementation "androidx.hilt:hilt-navigation-compose:1.2.0"
+```
+
+For more information, see the [Compose Navigation documentation](https://developer.android.com/develop/ui/compose/navigation) and [Hilt Navigation Compose guide](https://developer.android.com/develop/ui/compose/libraries#hilt).
+
+### Kotlinx Serialization Dependency
+Kotlinx Serialization provides a simple and efficient way to serialize and deserialize data in Kotlin applications.
+
+**Dependency:**
+```gradle
+implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+```
+
+**Plugin:**
+```gradle
+id 'org.jetbrains.kotlin.plugin.serialization' version '<latest_version>'
+```
+
+For more information, refer to the [Kotlinx Serialization documentation](https://kotlinlang.org/docs/serialization.html#formats).
+
+
 
 ## Setup Instructions
 1. Clone the repository:
