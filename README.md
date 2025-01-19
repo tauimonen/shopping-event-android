@@ -8,8 +8,10 @@ Welcome to the ShoppingEvent project! This project is designed to demonstrate th
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Dependencies and Plugins](#dependencies-and-plugins)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
+
 
 ---
 
